@@ -1,0 +1,18 @@
+simulation:
+  area_size: 50        # Simulation area
+  sim_time: 10        # Simulation time (second)
+  dt: 0.1              # Time Steps
+  change_interval_time: 2
+
+obstacles:
+  num_obstacles: 3     # Number of obstacles
+  min_radius: 5        # Miinimum Radius
+  max_radius: 10       # Maximum Radius
+  max_attempts: 100
+
+tracking_modes:
+  modes:
+    - "astar"
+    - "predictive"
+    - "direct"
+
