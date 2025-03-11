@@ -22,7 +22,6 @@ Open config.yaml to change any parameters (like area_size, sim_time, dt, etc.).
 ## Run Simulation
 
 Simply run:
-bash
 
 python main.py
 
